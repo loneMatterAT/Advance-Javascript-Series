@@ -1,0 +1,72 @@
+body{
+  font-family: "Poppins", serif;
+  background-color:aliceblue;
+}
+
+.div1{
+  width: 600px;
+  height: 240px;
+  margin: 100px 200px 100px 350px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px rgba(1, 1, 1, 0.25);
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.905);
+}
+
+.div1 h1{
+  color:rgba(35, 35, 35, 0.928);
+  margin-bottom: 35px;
+}
+
+.div1 label{
+  margin-right: 5px;
+}
+
+.div1 input{
+  padding: 7px 5px 7px 10px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px rgba(1, 1, 1, 0.25);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.div1 button{
+  width: 70px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgba(1, 1, 1, 0.25);
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(47, 126, 252);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: rgb(15, 97, 230);
+  transition: background-color 0.15s;
+}
+
+.submit:active{
+  opacity: 0.8;
+  transition: opacity 0.10s;
+}
+
+.refresh-button:hover{
+  background-color: rgb(15, 97, 230);
+  transition: background-color 0.15s;
+}
+
+.refresh-button:active{
+  opacity: 0.8;
+  transition: opacity 0.10s;
+}
+
+h4{
+  color:rgba(35, 35, 35, 0.928);
+}
